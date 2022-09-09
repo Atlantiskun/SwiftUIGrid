@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftuiGridApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                MainScreen()
+            }
         }
     }
 }

@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0AAB94AF28CAFA07004CF247 /* SwiftuiGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB94AE28CAFA07004CF247 /* SwiftuiGridApp.swift */; };
-		0AAB94B128CAFA07004CF247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB94B028CAFA07004CF247 /* ContentView.swift */; };
+		0AAB94B128CAFA07004CF247 /* GridWithVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB94B028CAFA07004CF247 /* GridWithVStack.swift */; };
 		0AAB94B328CAFA09004CF247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB94B228CAFA09004CF247 /* Assets.xcassets */; };
 		0AAB94B628CAFA09004CF247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB94B528CAFA09004CF247 /* Preview Assets.xcassets */; };
+		0AAB94BD28CAFC93004CF247 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB94BC28CAFC93004CF247 /* MainScreen.swift */; };
+		0AAB94BF28CAFDD8004CF247 /* GridWithLazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB94BE28CAFDD8004CF247 /* GridWithLazyGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AAB94AB28CAFA07004CF247 /* SwiftuiGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB94AE28CAFA07004CF247 /* SwiftuiGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiGridApp.swift; sourceTree = "<group>"; };
-		0AAB94B028CAFA07004CF247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AAB94B028CAFA07004CF247 /* GridWithVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWithVStack.swift; sourceTree = "<group>"; };
 		0AAB94B228CAFA09004CF247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AAB94B528CAFA09004CF247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAB94BC28CAFC93004CF247 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		0AAB94BE28CAFDD8004CF247 /* GridWithLazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWithLazyGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				0AAB94AE28CAFA07004CF247 /* SwiftuiGridApp.swift */,
-				0AAB94B028CAFA07004CF247 /* ContentView.swift */,
+				0AAB94BC28CAFC93004CF247 /* MainScreen.swift */,
+				0AAB94B028CAFA07004CF247 /* GridWithVStack.swift */,
+				0AAB94BE28CAFDD8004CF247 /* GridWithLazyGrid.swift */,
 				0AAB94B228CAFA09004CF247 /* Assets.xcassets */,
 				0AAB94B428CAFA09004CF247 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAB94B128CAFA07004CF247 /* ContentView.swift in Sources */,
+				0AAB94BD28CAFC93004CF247 /* MainScreen.swift in Sources */,
+				0AAB94BF28CAFDD8004CF247 /* GridWithLazyGrid.swift in Sources */,
+				0AAB94B128CAFA07004CF247 /* GridWithVStack.swift in Sources */,
 				0AAB94AF28CAFA07004CF247 /* SwiftuiGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
